@@ -1,7 +1,18 @@
 aid: filmgrail
 name: Filmgrail
-description: Filmgrail is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Filmgrail is an Oslo, Norway based software company offering an AI-powered
+  digital platform for cinema operators. Its product suite bundles a cinema
+  content management system (CMS), native iOS and Android mobile apps, branded
+  cinema websites, and marketing and analytics tooling into a single managed
+  offering, with a loyalty system, festival platform, push notifications, and a
+  planning tool layered on top. Filmgrail markets these capabilities as a way to
+  automate cinema operations and grow digital ticket sales and moviegoer
+  engagement, and describes API-based integration between its platform and
+  cinema point-of-sale systems, websites, and mobile apps. Backed by 500 Global,
+  the company operates from Oslo, Norway and Delaware, USA. Filmgrail does not
+  currently publish a public developer portal, API reference, or client SDKs;
+  this profile is maintained as an API Evangelist network company record.
 url: https://raw.githubusercontent.com/api-evangelist/filmgrail/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://unicorn-images.b-cdn.net/2989e26d-71f1-4730-a243-9be467fcefb0?optimizer=gif
 tags:
 - Company
+- Cinema
+- Movies
+- Entertainment
+- CMS
+- Mobile Apps
+- Ticketing
+- Analytics
+- Loyalty
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/filmgrail-domain-security.yml
 - type: Website
   url: https://filmgrail.com
+- type: Blog
+  url: https://filmgrail.com/blog
+- type: About
+  url: https://filmgrail.com/company
+- type: GitHubOrganization
+  url: https://github.com/filmgrail
+- type: Twitter
+  url: https://twitter.com/filmgrail
+- type: LinkedIn
+  url: https://www.linkedin.com/company/filmgrail
+- type: Facebook
+  url: https://www.facebook.com/filmgrail
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
